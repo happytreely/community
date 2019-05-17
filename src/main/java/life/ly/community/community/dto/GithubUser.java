@@ -28,4 +28,13 @@ public class GithubUser {
     public void setBig(String big) {
         this.big = big;
     }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", big='" + big + '\'' +
+                '}';
+    }
 }
